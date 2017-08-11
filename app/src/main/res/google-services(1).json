@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400478249336",
+    "firebase_url": "https://jugaad-5bc65.firebaseio.com",
+    "project_id": "jugaad-5bc65",
+    "storage_bucket": "jugaad-5bc65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400478249336:android:48aff87bc11e122f",
+        "android_client_info": {
+          "package_name": "com.example.admin1.jugaad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400478249336-l3v9krjd82f407mmcldbmugtu6je3hl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin1.jugaad",
+            "certificate_hash": "d5aa52954748a972e478bf21e336efcfa32f5afa"
+          }
+        },
+        {
+          "client_id": "400478249336-qvbblq21mdti8i7t3o5igb4es0bg9mt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBirRuyEe72Vt77jGAUwB20N_XE9D4dhmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400478249336-qvbblq21mdti8i7t3o5igb4es0bg9mt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

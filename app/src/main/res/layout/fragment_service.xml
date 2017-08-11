@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/service_fr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.jugaad.serviceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+       <TextView
+           android:id="@+id/textView9"
+           android:layout_width="328dp"
+           android:layout_height="58dp"
+           android:text="        SERVICES WE PROVIDE !!!"
+           android:textColor="#000000"
+           android:textSize="20sp"
+           android:layout_marginTop="22dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignLeft="@+id/textView17"
+           android:layout_alignStart="@+id/textView17" />
+
+       <TextView
+           android:id="@+id/textView16"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="PLANNING CALENDER"
+           android:textColor="#000000"
+           android:textSize="15sp"
+           android:layout_below="@+id/textView9"
+           android:layout_alignLeft="@+id/textView9"
+           android:layout_alignStart="@+id/textView9"
+           android:layout_marginTop="28dp" />
+
+       <TextView
+           android:id="@+id/textView17"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BULK ORDER"
+           android:textColor="#000000"
+           android:textSize="15sp"
+           android:layout_centerVertical="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginLeft="16dp"
+           android:layout_marginStart="16dp" />
+
+       <TextView
+           android:id="@+id/textView18"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="CARPORATE ORDER"
+           android:textColor="#000000"
+           android:textSize="15sp"
+           android:layout_above="@+id/textView23"
+           android:layout_alignRight="@+id/textView16"
+           android:layout_alignEnd="@+id/textView16" />
+
+       <TextView
+           android:id="@+id/textView19"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Plan your weekly monthly and daily water requirements and forget it. we will ensure ur needs will be fullfilled in ur door steps.  "
+           android:layout_above="@+id/textView17"
+           android:layout_alignRight="@+id/textView23"
+           android:layout_alignEnd="@+id/textView23"
+           android:layout_marginBottom="37dp" />
+
+       <TextView
+           android:id="@+id/textView20"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Order for parties meetings gettogether and events . we will serve you the best with best service satisfaction and efficient price "
+           android:layout_marginTop="22dp"
+           android:layout_below="@+id/textView17"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+       <TextView
+           android:id="@+id/textView23"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="For all government offices and Largee corporations ...all water requirements will be fullfilled with best quality of water and best possible price "
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="44dp" />
+</RelativeLayout>
+
+
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back"
+    tools:context="com.example.admin1.jugaad.DeliveryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="50dp"
+        android:text="PAYMENT DETAILS"
+        android:textColor="#17202A"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/mop"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Cash On Delivery"
+        android:textColor="#17202A"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/paytm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Paytm"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        android:layout_marginTop="15dp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELIVERY DETAILS"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:paddingTop="30dp"
+        android:layout_marginBottom="31dp" />
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/drop_detail"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Now"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        android:layout_marginBottom="12dp"
+   />
+
+    <RadioButton
+        android:id="@+id/later"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Later [Enter Time]"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="238dp"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/button7"
+     />
+
+    </RadioGroup>
+
+
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="time"
+
+        />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="38dp" />
+
+</LinearLayout>

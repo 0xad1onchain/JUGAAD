@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin1.jugaad.MainActivity"
+
+   >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="APAHA"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        android:text="Hygiene"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Packaging"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_toRightOf="@+id/textView32"
+        android:layout_toEndOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy Payment"
+        android:textColor="#000000"
+        android:layout_alignBaseline="@+id/textView29"
+        android:layout_alignBottom="@+id/textView29"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR PROMISES"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_above="@+id/textView30"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_marginBottom="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/achi"
+        android:layout_above="@+id/textView32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.jugaad.LoginActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="176dp"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dont have an account ?"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="321dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="383dp"
+        android:layout_weight="0.14"
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ground"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

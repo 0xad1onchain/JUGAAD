@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.admin1.jugaad.AddressActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Now"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="150dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_above="@+id/radioButton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="47dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Later"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="238dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="413dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="DELIVERY DETAILS"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="time"
+        android:layout_alignTop="@+id/radioButton3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+</RelativeLayout>

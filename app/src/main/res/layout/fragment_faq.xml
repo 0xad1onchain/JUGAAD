@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.jugaad.FAQFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="  Frequently Asked Questions : "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+
+        android:text="
+
+
+
+        1.When will my water be delivered?\n
+
+          Your water will be delivered regularly, according to the printed schedule your Route Sales Representative (RSR) provides. You also can view and print your delivery schedule online. This schedule highlights delivery days so you always will know when you will receive your delivery.
+
+        2.How many water bottles will be delivered?\n
+
+           After your initial set-up and delivery, your RSR will replace your empty bottles with full ones. However, adjustments may be made based on your needs. If you would like a different quantity or additional products, please update your order online, leave a note for your RSR, send an email to customerservice@dsservices.com or call us at 800.4.WATERS.
+
+        3.Where will the water bottles be left?
+
+           You and your RSR will decide on a convenient location to store empty bottles and where your full bottles will be left if you are not at home.
+
+        4.How do I communicate my water needs?
+
+           The best and most convenient way to keep in touch is by using the adhesive notes supplied by your RSR with your delivery schedule. Just complete and leave a note for your RSR on your scheduled delivery day. Adhesive notes are great for all sorts of communications, such as:
+
+           Asking service questions
+           Changing the amount of water delivered
+           Requesting information regarding additional products we offer
+           Notifying us of your vacation so we can anticipate your delivery needs
+
+        5.Can I change my delivery day or delivery time?
+
+           In order to provide the exceptional service you expect, our delivery system is set up to serve specific geographic areas on certain days. Please discuss special delivery needs with your RSR.
+
+        6.How do I contact my Route Sales Representative?
+
+           You can reach your RSR by leaving a note on the day of your delivery. Simply attach the note with your request or question on an empty bottle. If your timing is more urgent, please send an email message to customerservice@dsservices.com, which will be forwarded to your RSR within two business days or call customer service at 800.4.WATERS.
+
+        7.When is my  payment due?
+
+           Payment is due by the Payment Due Date listed on your invoice. Late charges will apply as noted on the payment stub at the bottom right corner of the invoice and as set forth in your customer service agreement with us.
+
+        8.What if I forget to put my empty bottles out?
+
+           Your RSR will continue to deliver your water. Hold onto the empty bottles until your next regularly scheduled delivery. At that time, the empty bottles will be picked up by your RSR. If your water consumption has changed, it is a good idea to leave a note on your empty bottles so your RSR knows how many full bottles you would like delivered."
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+   </RelativeLayout>
+
+</ScrollView>
